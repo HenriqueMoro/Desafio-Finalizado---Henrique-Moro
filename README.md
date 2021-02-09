@@ -6,3 +6,8 @@ Ao entrar na home do site o programa irá detectar automaticamente a localizaç�
 Portanto o site mostrará no instante que entrar o clima na região que o usuário está. Existe um campo de busca onde poderá pesquisar o clima de qualquer região desejada.
 
 Todas as pesquisas feitas ficaram armazenadas no backend, sendo possível olhar o histórico de busca a qualquer momento
+
+Execução:
+
+backend: npm start
+frontend: yarn start
