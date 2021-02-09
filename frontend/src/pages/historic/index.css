@@ -1,0 +1,186 @@
+body {
+  background-image: url(../../assests/33.jpg);
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.textfield {
+  width: 25%;
+  height: 60px;
+  color: #16394c;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 0 24px;
+  opacity: 0.4;
+  margin-top: 3%;
+}
+.input {
+  width: 5%;
+  height: 60px;
+  color: #dcdce6;
+  border: 1px solid #16394c;
+  border-radius: 8px;
+  padding: 0 24px;
+  background-color: #16394c;
+}
+.index-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 1%;
+}
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.navbarItens {
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  opacity: 1;
+}
+
+.navbarLogo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+.faReact {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.navMenu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  justify-content: end;
+  margin-right: 2rem;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.location-data {
+  width: 100%;
+  color: white;
+  margin-left: 4%;
+}
+
+.weather-icon {
+  border-radius: 50%;
+  border: 2px solid #608094;
+}
+.location-location {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 600;
+}
+.component-card {
+  background-color: #16394c;
+  height: 300px;
+  width: 600px;
+  border-radius: 10px;
+  border: 4px solid grey;
+  font-family: "Open Sans", sans-serif;
+  opacity: 0.8;
+}
+.global {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+  margin-left: 120px;
+}
+
+.icon-container {
+  flex-grow: 1.25;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 70px;
+}
+
+.temperature-container {
+  flex-grow: 1;
+  text-align: left;
+  color: aliceblue;
+}
+.temperature-value {
+  font-size: 5em;
+  font-weight: 300;
+}
+
+.weather-description {
+  margin-top: -0.5em;
+
+  font-size: 1.125em;
+}
+
+.temperature_icon-container {
+  display: flex;
+  margin-top: 0.25em;
+  width: 50%;
+}
+
+.div {
+  margin-left: 4%;
+  flex-direction: row;
+  display: flex;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.stats-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.stats-number {
+  font-weight: 700;
+}
+
+.stats-description {
+  font-weight: 200;
+}
+form {
+  margin-left: 0px;
+}
+.menuIcon {
+  color: white;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.Title {
+  font-family: "Open Sans", sans-serif;
+  color: #dcdce6;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 42%;
+  margin-bottom: 20px;
+}
+.link {
+  text-decoration: none;
+  color: #dcdce6;
+  font-family: "Open Sans", sans-serif;
+}

@@ -1,0 +1,98 @@
+body {
+  background-image: url(../../assests/33.jpg);
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.textfield {
+  width: 25%;
+  height: 60px;
+  color: #16394c;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 0 180px;
+  opacity: 0.4;
+  margin-top: 3%;
+}
+.input {
+  width: 5%;
+  height: 60px;
+  color: #dcdce6;
+  border: 1px solid #16394c;
+  border-radius: 8px;
+  padding: 0 24px;
+  background-color: #16394c;
+}
+.index-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 1%;
+}
+
+.navbarItens {
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  opacity: 1;
+}
+
+.navbarLogo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+.faReact {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.navMenu {
+  color: #dcdce6;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 1100%;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  justify-content: end;
+  margin-right: 2rem;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.menuIcon {
+  color: white;
+}
+.menuIcon {
+  color: white;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.Title {
+  font-family: "Open Sans", sans-serif;
+  color: #dcdce6;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.link {
+  text-decoration: none;
+  color: #dcdce6;
+  font-family: "Open Sans", sans-serif;
+}
