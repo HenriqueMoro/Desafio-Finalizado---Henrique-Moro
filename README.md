@@ -8,7 +8,7 @@ Portanto o site mostrará no instante que entrar o clima na região que o usuár
 Todas as pesquisas feitas ficaram armazenadas no backend, sendo possível olhar o histórico de busca a qualquer momento
 
 Execução:
-executar o npm install e o yarn add para baixar os pacotes do node_modules
+Na primeira execução executar npm install (no backend) e yarn (no frontend) para fazer o download dos pacotes
 
 backend: npm start
 frontend: yarn start
