@@ -1,7 +1,8 @@
 # Desafio-Finalizado---Henrique-Moro
 
 ## Descrição do Projeto
-<p align="center">Esta é uma aplicação de consulta de clima, foi construída com ReactJS no frontend e NodeJs no backend para a persistência dos dados.
+<p align="center">
+Esta é uma aplicação de consulta de clima, foi construída com ReactJS no frontend e NodeJs no backend para a persistência dos dados.
 
 Ao entrar na home do site o programa irá detectar automaticamente a localização do usuário através do ip que é obtido a partir de uma api.
 Portanto o site mostrará no instante que entrar o clima na região que o usuário está. Existe um campo de busca onde poderá pesquisar o clima de qualquer região desejada.
